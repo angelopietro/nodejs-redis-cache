@@ -5,7 +5,8 @@
     "license": "MIT",
     "scripts": {
         "dev": "nodemon src/server.js",
-        "build": "sucrase ./src -d ./dist --transforms imports"
+        "build": "sucrase ./src -d ./dist --transforms imports",
+        "commit": "git-cz"
     },
     "husky": {
         "hooks": {
@@ -16,7 +17,6 @@
     "lint-staged": {
         "*.js": [
             "eslint --fix",
-            "cross-env CI=true yarn test --bail --findRelatedTests",
             "git add"
         ]
     },
@@ -32,6 +32,7 @@
         "@commitlint/cli": "^8.3.5",
         "@commitlint/config-conventional": "^8.3.4",
         "commitizen": "^4.0.3",
+        "cross-env": "^6.0.3",
         "cz-conventional-changelog": "3.0.2",
         "eslint": "^6.8.0",
         "eslint-config-airbnb-base": "^14.0.0",
