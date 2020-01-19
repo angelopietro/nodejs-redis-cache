@@ -12,13 +12,13 @@ Nesta aplicação, você irá encontrar uma maneira simples de realizar **cache*
 
 # Ambiente de desenvolvimento
 
-[Visual Studio Code](https://code.visualstudio.com/) - Editor de código 
-[Imsomnia](https://insomnia.rest/) - Cliente de serviços http (APIs) 
-[Node](https://nodejs.org/) - Interpretador de JavaScript orientado a eventos 
-[Yarn](https://yarnpkg.com) - Gerenciador de pacotes 
-[MongoDB Compass](https://www.mongodb.com/download-center/compass) - GUI MongoDB 
-[Docker](https://www.docker.com/) - Plataforma aberta para criação, execução e publicação (deploy) de containers 
-[Docker Compose](https://docs.docker.com/compose/) - Orquestrador de containers Docker 
+* [Visual Studio Code](https://code.visualstudio.com/) - Editor de código
+* [Imsomnia](https://insomnia.rest/) - Cliente de serviços http (APIs)
+* [Node](https://nodejs.org/) - Interpretador de JavaScript orientado a eventos
+* [Yarn](https://yarnpkg.com) - Gerenciador de pacotes
+* [MongoDB Compass](https://www.mongodb.com/download-center/compass) - GUI MongoDB
+* [Docker](https://www.docker.com/) - Plataforma aberta para criação, execução e publicação (deploy) de containers
+* [Docker Compose](https://docs.docker.com/compose/) - Orquestrador de containers Docker
 
 # Passos para instalação
 
